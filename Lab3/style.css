@@ -1,0 +1,121 @@
+.house{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.house__roof{
+	display: flex;
+	height: 0; 
+	width: 250px;
+	border-bottom: 190px solid #946737;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	margin-top: 50px;
+	margin-left: 100px;
+
+}
+
+.house__wall{;
+	display: flex;
+	height: 410px;
+	width: 600px;
+	margin-left: 100px;
+	margin-top: 0px;
+	background: #E9967A;
+	border: 2px solid #CD5C5C;
+}
+.house__balcony{
+	display: flex;
+	height: 80px;
+	width: 150px;
+	margin-left: 20px;
+	margin-top: 43px;
+	background: #a17f77;
+}
+.house__window1{
+	display: flex;
+	height: 90px;
+	width: 90px;
+	margin-left: 350px;
+	margin-top: -390px;
+	background: #f0fcfa;
+	border: 2px solid #4f2a03;
+}
+.house__w1frame1{
+	display: flex;
+	background: #000000;
+	height: 90px; 
+	width: 0px; 
+	margin-left:45px;
+	margin-top: 0px;
+	border: 1px double #0d1c1a;
+}
+.house__w1frame2{
+	display: flex;
+	background: #000000;
+	height: 0px; 
+	width: 315px; 
+	margin-left:-48px;
+	margin-top:37px;
+	border: 1px double #000000;
+}
+
+.house__window2{
+	display: flex;
+	height: 140px;
+	width: 95px;
+	margin-left: -124px;
+	margin-top: -30px;
+	background: #f0fcfa;
+	border: 2px solid #000000;
+}
+.house__w2frame1{
+	display: flex;
+	background: #000000;
+	height: 140px; 
+	width: 0px; 
+	margin-left:45px;
+	margin-top: 0px;
+	border: 1px double #000000;
+}
+.house__w2frame2{
+	display: flex;
+	background: #000000;
+	height: 0px; 
+	width: 315px; 
+	margin-left:-48px;
+	margin-top:37px;
+	border: 1px double #000000;
+}
+.house__grass{
+	display: flex;
+	height: 40px;
+	width: 650px;
+	border-radius: 30%;
+	margin-left: 100px;
+	margin-top: 170px;
+	background: green;
+}
+
+.house__door{
+	display: flex;
+	height: 200px;
+	width: 130px;
+	margin-left: 420px;
+	margin-top: -243px;
+	background: #A0522D;
+	border: 2px solid #000000;
+}
+
+.house__doorhandle{
+	display: flex;
+	width: 6px; 
+	height: 6px;
+	background: #83A7C9;
+	border-radius: 40%;
+	position: relative;
+	margin-left: 20px;
+	margin-top: 120px;
+	background-color: #000000;
+}
