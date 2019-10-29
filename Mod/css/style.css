@@ -1,0 +1,56 @@
+.triangle_n2{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid transparent;
+    border-left: 100px solid green;
+    overflow: hidden;
+    animation: triangle_g 3s ease forwards;
+    
+}
+.triangle_n1{
+    position: absolute;
+    margin-top: -100px;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid red;
+    overflow: hidden;
+    animation: triangle_b 3s ease forwards;
+}
+@keyframes triangle_g{
+    0%{transform: translate(0);
+    }
+    10%{transform: translateX(30px);
+    }
+
+    30%{transform: translateX(250px);
+    }
+    50%{transform: translateX(350px);
+    }
+    70%{transform: translate(350px,50px);
+    }
+    90%{transform: translate(350px,350px);
+    }
+    100%{transform: translate(350px,450px);
+
+    }
+
+
+}
+@keyframes triangle_r{
+    0%{transform: translate(0);
+    }
+    10%{transform: translateY(30px);
+    }
+    20%{transform: translateY(70px);
+    }
+    50%{transform: translateY(450px);
+    }
+    60%{transform: translate(20px,450px);
+    }
+    90%{transform: translate(300px,450px);
+    }
+    100%{transform: translate(350px,450px);
+    }
+
+}
